@@ -151,3 +151,103 @@
     margin-left: 0;
     margin-top: 5px;
   }
+
+/*---------------------*/
+/*portfolio section*/
+#portfolio {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+#portfolio .project-buttons {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#portfolio .filter-button {
+  color: rgb(81, 79, 79);
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+
+  text-decoration: underline;
+  font-weight: bold;
+
+  /* Increase the space between text and underline */
+  text-decoration-skip-ink: none; /* Disable skipping ink */
+  text-underline-offset: 6px; /* Adjust the offset (increase as needed) */
+}
+
+#portfolio .filter-button:hover {
+  color: rgb(70, 9, 144);
+}
+
+#portfolio .filter-button.active {
+  color: rgb(213, 202, 42);
+}
+
+.row {
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  display: flex;
+
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  align-content: center;
+}
+#portfolio .project {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 450px;
+  border: 1px solid black;
+  margin: 10px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 15px;
+  background: linear-gradient(to top, rgb(87, 155, 35) 50%, white 50%);
+  background-size: 100% 200%;
+  transition: all 0.8s;
+}
+
+#portfolio .project:hover {
+  background-position: left bottom;
+  color: white;
+  border: none;
+  box-shadow: 0 0 20px rgb(145, 229, 103);
+}
+
+#portfolio .project img {
+  width: 80px;
+  height: 80px;
+  background-color: none;
+  padding: 10px;
+}
+
+#portfolio .project .sk button {
+  background-color: #ddd;
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+/* Style the link container */
+.link {
+  display: flex;
+  align-items: center; /* Align items vertically to the middle */
+  justify-content: center; /* Align items horizontally to the center */
+  height: 120px;
+  /* Set a height to the container (adjust as needed) */
+  background-color: none; /* Background color for the container */
+  color: white;
+}
+
+/* Style the icon */
+.link a {
+  font-size: 20px;
+}
