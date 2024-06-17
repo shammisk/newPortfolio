@@ -1,3 +1,24 @@
+
+.headings {
+  font-family: century;
+  font-size: 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+.heading span {
+  color: rgb(3, 196, 250);
+}}
+
+
+
+.headings {
+    font-size: 2rem; /* Adjust font size for small devices */
+    margin: 20px 0; /* Adjust margin for smaller space */
+  }
+
+
 /*About Section*/
 #about {
   flex-direction: column;
