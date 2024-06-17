@@ -253,42 +253,4 @@
 }
 
 
- .footer {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-        .social {
-            display: flex;
-            gap: 10px;
-        }
-        .social a {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1.5rem;
-        }
-        .social a:hover {
-            color: #ccc;
-        }
-        h3 {
-            margin: 0;
-            font-size: 0.9rem;
-            text-align: right;
-            flex-basis: 100%;
-        }
-        @media (max-width: 768px) {
-            .footer {
-                flex-direction: column;
-                text-align: center;
-            }
-            .social {
-                margin-bottom: 10px;
-            }
-            h3 {
-                text-align: center;
-            }
-        }
+ 
