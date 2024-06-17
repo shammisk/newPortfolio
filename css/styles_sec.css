@@ -152,6 +152,146 @@
     margin-top: 5px;
   }
 
+
+  /*resume section*/
+#resume {
+  padding: 10px;
+   
+}
+
+#resume .headings{
+  padding:10px
+}
+
+
+/* education section */
+#resume .exp {
+  width: 100%;
+  
+  background-color: rgb(148, 165, 187);
+}
+
+#resume .edu {
+  width: 100%;
+ 
+  background-color: rgb(148, 165, 187);
+}
+#resume .courses {
+  width: 100%;
+  
+  background-color: rgb(145, 139, 175);
+}
+#resume .baj {
+  width: 100%;
+  
+  background-color: rgb(148, 165, 187);
+}
+#resume .ex {
+  width: 100%;
+  background-color: rgb(145, 139, 175) ;
+  
+}
+#resume .vol {
+  width: 100%;
+  background-color: rgb(148, 165, 187);
+
+}
+
+
+#resume .edu .details,
+#resume .courses .details,
+#resume .exp .details,
+#resume .vol .details,
+#resume .baj .details {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+}
+
+#resume .edu .details .content,
+#resume .courses .details .content,
+#resume .exp .details .content,
+#resume .vol .details .content,
+#resume .baj .details .content {
+  margin-left: 30px;
+  padding-bottom: 20px;
+}
+
+#resume .edu .details .image img,
+#resume .courses .details .image img,
+#resume .exp .details .image img,
+#resume .vol .details .image img, 
+#resume .baj .details .image img {
+  width: 60px;
+  height: 60px;
+  margin-left: 250px;
+}
+
+#resume .edu .details .image #curve,
+#resume .courses .details .image #curve,
+#resume .exp .details .image #curve,
+#resume .vol .details .image #curve, 
+#resume .baj .details .image #curve {
+  border-radius: 50%;
+}
+
+#resume .courses .details .content p a {
+  color: rgb(43, 60, 206);
+}
+
+#resume .edu h2,
+#resume .courses h2,
+#resume .exp h2,
+#resume .vol h2,
+#resume .baj h2 {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+  text-decoration-color: rgb(155, 3, 135);
+  font-size: 35px;
+  padding-left: 200px;
+  padding-top: 20px;
+}
+
+
+
+  
+
+@media only screen and (max-width: 600px) {
+  #resume .exp,
+  #resume .edu,
+  #resume .courses{
+    padding: 10px;
+    margin: 10px 0;
+  }
+ 
+   #resume .headings {
+    padding: 5px;
+  }
+   #resume .edu .details .image img,
+  #resume .courses .details .image img,
+  #resume .exp .details .image img,
+  #resume .vol .details .image img, 
+  #resume .baj .details .image img {
+    margin-left: 10px;
+  }
+  
+
+  #resume .edu h2,
+  #resume .courses h2,
+  #resume .exp h2,
+  #resume .vol h2,
+  #resume .baj h2 {
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  #resume .section h2 {
+    font-size: 10px;
+    padding-left: 10px;
+  }
+}
+
+
+
 /*---------------------*/
 /*portfolio section*/
 #portfolio {
