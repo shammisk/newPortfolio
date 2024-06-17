@@ -135,11 +135,14 @@ header nav ul li a:hover {
     }
 }
 
-section {
-    padding: 50px 20px;
-    background-color: #ece5e5;
-    margin-top: 50px; /* Ensure content isn't hidden under nav */
-}
+
+
+
+
+
+
+
+
 
 footer {
     text-align: center;
@@ -150,4 +153,10 @@ footer {
     clear: both;
     bottom: 0;
     width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    footer {
+        font-size: 0.8rem; /* Decrease font size for smaller screens */
+        padding: 10px; /* Reduce padding for smaller screens */
+    }
 }
