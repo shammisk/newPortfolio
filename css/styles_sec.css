@@ -222,8 +222,8 @@
 #resume .exp .details .image img,
 #resume .vol .details .image img, 
 #resume .baj .details .image img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   margin-left: 250px;
 }
 
@@ -247,14 +247,10 @@
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-color: rgb(155, 3, 135);
-  font-size: 35px;
+  font-size: 30px;
   padding-left: 200px;
   padding-top: 20px;
 }
-
-
-
-  
 
 @media only screen and (max-width: 600px) {
   #resume .exp,
@@ -273,6 +269,9 @@
   #resume .vol .details .image img, 
   #resume .baj .details .image img {
     margin-left: 10px;
+    width:90%;
+    height: auto;
+    
   }
   
 
@@ -289,6 +288,9 @@
     padding-left: 10px;
   }
 }
+
+  
+
 
 
 
