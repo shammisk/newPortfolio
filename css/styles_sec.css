@@ -247,7 +247,7 @@
   text-decoration: underline;
   text-underline-offset: 8px;
   text-decoration-color: rgb(155, 3, 135);
-  font-size: 30px;
+  
   padding-left: 200px;
   padding-top: 20px;
 }
@@ -269,7 +269,7 @@
   #resume .vol .details .image img, 
   #resume .baj .details .image img {
     margin-left: 10px;
-    width:90%;
+    width:80%;
     height: auto;
     
   }
