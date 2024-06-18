@@ -1,3 +1,4 @@
+/*...............................All section styles........................*/
 .headings {
   font-family: century;
   font-size: 3rem;
@@ -16,7 +17,7 @@
   margin: 20px 0; /* Adjust margin for smaller space */
 }
 
-/*Home*/
+ /*..................................Home...........................*/
 
 #home {
   display: flex;
@@ -128,7 +129,7 @@
     margin-top: 55px;
   }
 }
-/*About Section*/
+/*.........................................About Section........................*/
 #about {
   flex-direction: column;
   box-sizing: border-box;
@@ -261,7 +262,7 @@
   margin-top: 5px;
 }
 
-/*resume section*/
+/*..........................................resume section.............................*/
 #resume {
   padding: 10px;
 }
@@ -270,7 +271,7 @@
   padding: 10px;
 }
 
-/* education section */
+
 #resume .exp {
   width: 100%;
 
@@ -401,8 +402,8 @@
   }
 }
 
-/*---------------------*/
-/*portfolio section*/
+
+/*.......................................portfolio section...........................*/
 #portfolio {
   display: flex;
   flex-direction: column;
@@ -501,7 +502,7 @@
   font-size: 20px;
 }
 
-/*skills*/
+/*...........................................skills........................*/
 
 .hardskill,
 .softskill {
