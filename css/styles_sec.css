@@ -397,4 +397,68 @@
 }
 
 
+ /*skills*/
+
  
+      
+        .hardskill, .softskill {
+            padding: 50px;
+            margin: 20px;
+            border-radius: 8px;
+            
+        }
+        .hardskill h2, .softskill h2{
+           text-decoration: underline;
+  text-underline-offset: 6px;
+  text-decoration-color: rgb(155, 3, 135);
+        }
+
+        .hardskill {
+            background-color: rgb(145, 139, 175);
+        }
+
+        .softskill {
+            background-color:  rgb(148, 165, 187);
+        }
+
+        .myskill, .mysoftskill {
+            display: flex;
+            flex-wrap: wrap;
+           
+          
+           
+        }
+
+         .myskill div, .mysoftskill div {
+            margin:0;
+            row-gap: 2px;
+        }
+
+        ul {
+          
+            padding: 0;
+           
+        }
+
+        li {
+            margin: 1px 0;
+        }
+
+        hr {
+            margin: 40px auto;
+            border: 1px solid #ccc;
+            width: 80%;
+        }
+
+        @media (max-width: 768px) {
+            .myskill div, .mysoftskill div {
+                flex: 1 1 100%;
+                text-align: justify;
+            }
+        }
+
+        @media (min-width: 769px) {
+            .myskill div, .mysoftskill div {
+                flex: 1 1 22%;
+            }
+        }

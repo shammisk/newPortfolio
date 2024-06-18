@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #0f0f0f;
     position: fixed;
     width: 100%;
     top: 0;
@@ -24,6 +24,8 @@ header {
     align-items: center;
     padding: 10px 20px;
     justify-content: center;
+     font-family: century;
+      font-weight: bold;
 }
 
 .menu-toggle {
@@ -35,7 +37,7 @@ header {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #0e0d0d;
+    background-color: #b8c0bf;
     margin: 5px 0;
     transition: transform 0.4s;
 }
@@ -58,7 +60,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #dbd9e3;
+    color: #f1f0f6;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
@@ -67,9 +69,12 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background-color: #555;
+    color: rgb(70, 9, 144);
 }
 
+header nav ul li a:active {
+  color: rgb(70, 9, 144);
+}
 @media screen and (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -103,6 +108,8 @@ header nav ul li a:hover {
         justify-content: start;
         align-items: center;
         padding-top: 60px;
+         font-family: century;
+      font-weight: bold;
     }
 
     header nav.active {
@@ -123,7 +130,7 @@ header nav ul li a:hover {
 
     header nav ul li a {
         padding: 10px 0;
-        border-bottom: 1px solid #a01313;
+        border-bottom: 1px solid  rgb(144, 9, 43);
         width: 100%;
         text-align: center;
     }
@@ -143,7 +150,7 @@ header nav ul li a:hover {
 
 
 .footer {
-            background-color: #333;
+            background-color: #0b0b0b;
             color: #fff;
             padding: 20px;
             display: flex;
