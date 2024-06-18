@@ -225,6 +225,7 @@
   width: 100px;
   height: 100px;
   margin-left: 250px;
+  border-radius: 50%;
 }
 
 #resume .edu .details .image #curve,
