@@ -1,3 +1,5 @@
+/*Portfolio navigation setup*/
+
 function scrollToTop() {
   window.scrollTo({
     top: 60,
