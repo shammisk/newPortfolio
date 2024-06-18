@@ -269,8 +269,9 @@
   #resume .vol .details .image img, 
   #resume .baj .details .image img {
     margin-left: 10px;
-    width:80%;
+    width:60%;
     height: auto;
+    border-radius: 50%;
     
   }
   
