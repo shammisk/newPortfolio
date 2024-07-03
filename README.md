@@ -42,7 +42,7 @@ To run this project locally:
 
 You can reach me at:
 
-- **Email**: [ssamankumari6@gmail.com](ssamankumari6@gmail.com)
+- **Email**: [ssamankumari6@gmail.com](mailto:ssamankumari6@gmail.com)
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/shammi-saman-kumari/)
 
 Thank you for visiting my portfolio!
