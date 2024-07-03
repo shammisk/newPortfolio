@@ -7,7 +7,7 @@ This is the repository for my personal portfolio website. It showcases my projec
 - [Technologies Used](#technologies-used)
 - [Setup](#setup)
 - [Features](#features)
-- [License](#license)
+
 
 ## Introduction
 Welcome to my portfolio website! Here, you can find information about my work, including projects, skills, and contact information.
@@ -37,8 +37,7 @@ To view this project locally, follow these steps:
 - Interactive project gallery
 - Contact form
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
 
 ---
 
