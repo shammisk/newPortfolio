@@ -1,9 +1,9 @@
 /*...............................All section styles........................*/
 .headings {
   font-family: century;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
-  margin: 40px 0px;
+  margin: 40px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -12,10 +12,7 @@
   }
 }
 
-.headings {
-  font-size: 2rem; /* Adjust font size for small devices */
-  margin: 20px 0; /* Adjust margin for smaller space */
-}
+
 
  /*..................................Home...........................*/
 
@@ -275,7 +272,7 @@
 #resume .exp {
   width: 100%;
 
-  background-color: rgb(145, 139, 175);
+  background-color: rgb(137, 122, 148);
 }
 
 #resume .edu {
@@ -286,7 +283,7 @@
 #resume .courses {
   width: 100%;
 
-  background-color: rgb(145, 139, 175);
+  background-color: rgb(137, 122, 148);
 }
 #resume .baj {
   width: 100%;
@@ -295,7 +292,7 @@
 }
 #resume .ex {
   width: 100%;
-  background-color: rgb(145, 139, 175);
+  background-color: rgb(137, 122, 148);
 }
 #resume .vol {
   width: 100%;
@@ -504,6 +501,10 @@
 
 /*...........................................skills........................*/
 
+#skills{
+  padding: 20px;
+}
+
 .hardskill,
 .softskill {
   padding: 50px;
@@ -518,7 +519,7 @@
 }
 
 .hardskill {
-  background-color: rgb(145, 139, 175);
+  background-color: rgb(137, 122, 148);
 }
 
 .softskill {
@@ -546,7 +547,7 @@ li {
 }
 
 hr {
-  margin: 40px auto;
+  
   border: 1px solid #ccc;
   width: 80%;
 }
