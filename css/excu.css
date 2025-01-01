@@ -47,6 +47,7 @@ body {
   padding-left: 6px;
 }
 
+
 .ks {
   background-color: #fff;
   padding: 20px;
@@ -82,7 +83,7 @@ body {
 
 .pro{
   padding:20px;
-  background-color: aquamarine;
+  background-color: rgb(255, 229, 127);
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 20px;
@@ -108,11 +109,14 @@ body {
 }
 
 h3 {
-  color: rgba(205, 16, 85, 0.842);
+  color: rgba(173, 16, 45, 0.842);
 }
 
+
+
+
 ul li {
-  color: rgb(6, 13, 148);
+  color: rgb(5, 12, 79);
   margin-bottom: 10px;
 }
 
@@ -129,7 +133,7 @@ ul #link {
 }
 
 li h3 {
-  color: rgb(6, 13, 148);
+  color: rgb(5, 12, 79);
 }
 
 ul #link a {
@@ -142,7 +146,7 @@ ul #link a {
 }
 
 ul li span {
-  color: rgb(48, 114, 212);
+  color: rgb(5, 12, 79);
 }
 
 /* Media query for smaller devices */
